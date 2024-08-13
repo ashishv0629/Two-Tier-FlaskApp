@@ -24,9 +24,9 @@ COPY . .
 
 
 #------------------ Stage 2 -------------------------
+#-- use more slim image --
 
-
-FROM builder
+FROM python:3.9-alpine
 
 WORKDIR app
 
